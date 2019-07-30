@@ -86,6 +86,14 @@ curve(dpert(x, min=mins[4], mode=modes[4], max=maxs[4], shape = 4), from = 0, to
 curve(dpert(x, min=mins[5], mode=modes[5], max=maxs[5], shape = 4), from = 0, to = 100, lty=3, add=TRUE)
   # works, need to extend y axis though, and only shows density, still haven't got the distributions to estimate... 
 
+# Stefano says: 
+# I don't think you need to make the pdf...
+# just use rpert () with the min, mode and max to generate an empirical distribution and sample from it
+
 ## ALTERNATELY CAN TRY WITH THIS OTHER PACKAGE JEREMY WAS PLAYING WITH 
 # av.val=betaPERT(a=dist.1km$min, m=dist.1km$best, b=dist.1km$max, k = 4, method = c("classic"))
 # av.val=as.data.frame(av.val)
+
+## AND WE COULD TRY THIS ONE WITH WEIGHTING 
+https://blog.revolutionanalytics.com/2014/01/forecasting-by-combining-expert-opinion.html
+
