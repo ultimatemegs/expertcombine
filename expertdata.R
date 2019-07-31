@@ -112,6 +112,8 @@ emp_dist_4$expert <- "FOUR"
 names(emp_dist_4)[1] <- "sample"
 df_all <- data.frame(rbind(emp_dist_1, emp_dist_2, emp_dist_3, emp_dist_4))
 
+output.vec <- as.vector(df_all$sample)  #### OUPUT VECTOR
+
 # Double the dataset to make joint + individal dataset
 df_all_joint <- df_all
 df_all_joint$expert <- "JOINT"
