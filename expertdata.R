@@ -164,6 +164,11 @@ f
 
 # some fun labelling ideas: http://bradleyboehmke.github.io/tutorials/histograms
 
+
+
+### Need to add automatic creation and plot or markdown export for delphi review process (or ensure time to w/shop to do that)
+
+
 ########################################################  NOTES ######################################################## 
 
 ## ALTERNATELY CAN TRY WITH THIS OTHER PACKAGE
